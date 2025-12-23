@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <!-- head
+
+        Purpose:
+        - Title used here shows up in the browser tab
+        - Link to the favicon (small image that appears in the browser tab)
+        - Link to the CSS file (used to style the webpage)
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) (favicon)
+        - [ ] Any time after
+        -->
+        <title>Alpha Kappa Psi | Stevens</title>
+
+    </head>
+    
+    <body>
+        <div class="header-container">
+            <div class="header-item">
+                <img id="header-img" src="./img/akpsilogo.png" alt="Alpha Kappa Psi Logo">
+    </div>
+
+    <div class="header-item">
+        <h1>Alpha Kappa Psi at Stevens Institute of Technology</h1>
+        <h2>Brotherhood. Knowledge. Integrity. Service. Unity.</h2>
+        <button class="header-button" type="button">About AKΨ</button>
+        <button class="header-button" type="button">Meet the Brothers</button>
+    </div>
+</div>
+        <!-- navbar
+
+        Purpose:
+        - Navigation bar that allows users to jump to different sections of the webpage
+        - Also holds buttons for user settings (dark mode, reduce motion)
+
+        When To Modify:
+        - [ ] Project 4 (REQUIRED FEATURE)
+        - [ ] Project 5 (REQUIRED FEATURE) 
+        - [ ] Project 8 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        -->
+        <div class="navbar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#memories">Memories</a></li>
+                <li><a href="https://www.codepath.org" target="_blank">CodePath</a></li>
+                <li><button id="theme-button">Toggle Dark Mode</button></li>
+                <li><button id="reduce-motion-button">Reduce Motion OFF</button></li>
+        </ul>
+        </div>
+
+        <!-- headings
+
+        Purpose:
+        - Main header section of the webpage
+        - Contains the title, subtitle, image, and key buttons for the webpage
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 3 (REQUIRED FEATURE) 
+        - [ ] Project 4 (REQUIRED FEATURE) 
+        - [ ] Any time after
+        -->
+
+        <!-- about
+
+        Purpose:
+        - Section for general info about the event
+        - Contains a video, description, and key points about the event
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2 id="about">About Recruitment Week</h2>
+        <p>Alpha Kappa Psi Recruitment Week at Stevens is a five-day process containing a series of events designed for potential new members to demonstrate their skills, interact with current brothers, and gain knoweldge about the history of the professional business fraternity. </p>
+
+        <h3 id="schedule">Recruitment Schedule</h3>
+        <h4>Spring 2026</h4>
+
+        <div class="schedule-container">
+            <div class="schedule-item">
+            </h4>Mon 02/03</h4>
+            <p>Meet the Brothers & Information Session</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Tue 02/04</h4>
+            <p>LinkedIn & Professional Headshot Night</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Wed 02/05</h4>
+            <p>Resume Review Night</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Thu 02/06</h4>
+            <p>Community Service Night</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Fri 02/07</h4>
+    <p>Mocktail Party & Speed Networking</p>
+  </div>
+
+        <!-- schedule
+
+        Purpose:
+        - Section for specific info about the event's schedule
+        - Contains images and descriptions of each activity
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+    <h2 id="memories">Past Recruitment Memories!</h2>
+
+    <div class="memories-container">
+        <div class="memory-card">
+        <img src="img/meetthebrothers.png" alt="Meet the Brothers & Info Session">
+        <h3>Day 1 - Meet the Brothers & Information Session</h3>
+        <p>Networking with the founding class of AKPsi at Stevens and what makes the fraternity so special!</p>
+    </div>
+
+    <div class="memory-card">
+        <img src="img/career.png" alt="Career Night">
+        <h3>Day 2 - Career Night</h3>
+        <p>Hands-on resume and LinkedIn tips from AKPsi members and guest speakers!</p>
+    </div>
+
+    <div class="memory-card">
+        <img src="img/resume.png" alt="Resume Night">
+        <h3>Day 3 - Resume Night</h3>
+        <p>Free professional headshots to enhance LinkedIn profiles.</p>
+    </div>
+
+    <div class="memory-card">
+        <img src="img/communityservice.png" alt="Community Service Night">
+        <h3>Day 4 - Community Service Night</h3>
+        <p>Giving back to the community with brothers who value impact and integrity.</p>
+    </div>
+
+    <div class="memory-card">
+        <img src="img/mocktail.png" alt="Mocktail Party & Speed Networking">
+        <h3>Day 5 - Mocktail Party & Speed Networking</h3>
+        <p>Refreshing mocktails and meaningful conversations with the brothers!</p>
+    </div>
+</div>
+        <!-- rsvp
+
+Purpose:
+- Section for users to sign up for the event
+- Contains a form for users to input their information, 
+and a list of other users who have signed up
+
+When To Modify:
+- [ ] Project 6 (REQUIRED FEATURE) 
+- [ ] Project 6 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+<div id="rsvp">
+    <h2>RSVP</h2>
+    <p id="rsvp-count">3 people have RSVP'd to this event!</p>
+     <div class="rsvp-container">
+        <div class="rsvp-para">
+            Connect with our chapter and see where this journey could take you. Contact akpsistevens@gmail.com if you have any questions or concerns! RSVP by February 1st to be considered!!
+
+        </div>
+        <div class="rsvp-participants">
+            <p>🎟️ Mahalakshmi Elapanti has RSVP'd.</p>
+            <p>🎟️ Eleena Khapre has RSVP'd.</p>
+            <p>🎟️ Jillian Mccoy has RSVP'd.</p>
+        </div>
+    </div>
+
+    <!--- Sign RSVP Form --->
+    <div class="form-container">
+        <form id="rsvp-form" title="rsvp-form">
+        <label for="name">Name:</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="year">Year:</label>
+        <input id="year" name="year" type="text" required>
+
+        <label for="major">Major:</label>
+        <input id="major" name="major" type="text" required>
+
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email" required>
+
+        </form>
+        <!-- Submit button -->
+        <button id="rsvp-submit">Submit RSVP</button>
+    </div>      
+</div>
+        <!-- success modal
+
+        Purpose:
+        - Modal that appears when a user successfully signs up for the event
+        - Contains a personalized message and image
+
+        When To Modify:
+        - [ ] Project 9 (REQUIRED FEATURE)
+        - [ ] Project 9 (STRETCH FEATURE) 
+        - [ ] Any time after
+        --> 
+
+<div id="success-modal" class="modal">
+  <div class="modal-container">
+    <div class="modal-item">
+      <p id="modal-text"></p>
+      <button id="modal-close">Close</button>
+    </div>
+    <div class="modal-item">
+      <img id="modal-image" src="img/mocktail.png" alt="AKPsi Recruitment celebration">
+    </div>
+  </div>
+</div>
+
+        <!-- links
+
+        Purpose:
+        - Links to other resources related to the event
+
+        When To Modify:
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2>Links</h2>
+
+        <div class="links-container">
+            <a class="link-card" href="https://www.codepath.org" target="_blank">
+        <article>
+            <h3>CodePath</h3>
+            <p>Free tech courses & resources.</p>
+        </article>
+    </a>
+
+    <a class="link-card" href="https://www.instagram.com/akpsistevens" target="_blank">
+        <article>
+            <h3>Instagram</h3>
+            <p>Photos, events, and updates.</p>
+        </article>
+    </a>
+</div>
+        <!-- This <a> block is one link.  Copy and paste all 6 lines to create another link. -->
+        <a class="block" href="https://www.codepath.org">
+            <article>
+        </a>
+
+        <div class="footer">
+            <p>Connect with Alpha Kappa Psi | Stevens Institute of Technology</p>
+            <a href="https://www.instagram.com/akpsistevens" target="_blank">Instagram</a>
+        </div>
+        <!-- footer [PLACEHOLDER] [ADDED IN UNIT 3] -->
+        <!-- script [PLACEHOLDER] [ADDED IN UNIT 5] -->
+    <script src="index.js"></script>
+    </body>
+</html>
